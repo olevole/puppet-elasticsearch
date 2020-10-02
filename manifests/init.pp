@@ -390,7 +390,7 @@ class elasticsearch (
   Optional[String]                                $security_logging_content,
   Optional[String]                                $security_logging_source,
   String                                          $service_name,
-  Enum['init', 'openbsd', 'openrc', 'systemd']    $service_provider,
+  Enum['init', 'openbsd', 'openrc', 'systemd', 'freebsd']    $service_provider,
   Hash                                            $snapshot_repositories,
   Boolean                                         $ssl,
   Elasticsearch::Status                           $status,
